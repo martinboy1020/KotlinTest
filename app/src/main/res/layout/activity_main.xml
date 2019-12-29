@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_activity_recycle_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="RecycleView Activity"/>
+    <Button
+        android:id="@+id/btn_activity_pick_something"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Pick SomeThing Activity"/>
+    <Button
+        android:id="@+id/btn_activity_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Fragment Activity"/>
+    <Button
+        android:id="@+id/btn_activity_rome_number"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Covert Number to Rome Number"/>
+    <Button
+        android:id="@+id/btn_activity_net_api_retrofit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Net Api By RetroFit"/>
+    <Button
+        android:id="@+id/btn_activity_retrofit_test"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="RetroFit Test"/>
+    <Button
+        android:id="@+id/btn_activity_volley_test"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Volley Test"/>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="example.com.kotlintest">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.RecycleViewActivity"/>
+        <activity android:name=".activity.PickSomeThingActivity"/>
+        <activity android:name=".activity.FragmentActivity"/>
+        <activity android:name=".activity.RomeNumberActivity"/>
+        <activity android:name=".activity.NetApiActivity"/>
+        <activity android:name=".activity.RetrofitApiTestActivity"/>
+        <activity android:name=".activity.VolleyApiActivity"/>
+
+    </application>
+
+</manifest>
